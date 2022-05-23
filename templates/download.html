@@ -1,0 +1,11 @@
+<ul>
+    {% for file in files %}
+    <li>
+        <a href="{{ ('/upload/') + file }}">
+            {{ ('/upload/') + file }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+<br>
+<a href="/">Home page</a>
